@@ -3,3 +3,4 @@ bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1
 shortLabel CADD v1.4
 longLabel CADD scores version 1.4 for GRCh38/hg38
 type bigWig
+visibility full
