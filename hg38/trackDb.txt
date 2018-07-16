@@ -1,5 +1,5 @@
 track CADD_v1_4_hg38
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.4.bw
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.3.bw
 shortLabel CADD v1.4
 longLabel CADD scores version 1.4 for GRCh38/hg38
 type bigWig
