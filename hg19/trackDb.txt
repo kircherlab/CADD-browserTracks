@@ -1,5 +1,5 @@
 track CADD_v1_4_hg19
-bigDataUrl http://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh37-v1.4.bw
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh37-v1.4.bw
 shortLabel CADD v1.4
 longLabel CADD v1.4 hg19
 type bigWig
