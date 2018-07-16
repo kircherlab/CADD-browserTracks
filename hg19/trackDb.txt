@@ -6,6 +6,7 @@ type bigWig
 visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
+color 112,172,192
 
 track CADD_v1_3_hg19
 bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_v1.3.bw
@@ -15,3 +16,4 @@ type bigWig
 visibility hide
 viewLimits 0:40
 viewLimitsMax 0:100
+color 170,28,125

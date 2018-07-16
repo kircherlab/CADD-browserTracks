@@ -6,3 +6,4 @@ type bigWig
 visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
+color 112,172,192
