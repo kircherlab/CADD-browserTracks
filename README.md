@@ -20,6 +20,8 @@ track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html)
 It displayes the highest CADD score that any of 3 possible SNV at that position has.
 It is available for every determined genome position on the major chromosomes in the reference genome.
 
+The bigWig datasets that are displayed in the tracks are located [on our webserver](http://krishna.gs.washington.edu/download/CADD/bigWig/)
+
 ## About CADD
 
 CADD (short for Combined Annotation Dependent Depletion) is a tool for scoring
