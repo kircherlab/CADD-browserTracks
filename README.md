@@ -7,9 +7,9 @@ for [CADD](http://cadd.gs.washington.edu/) versions 1.3 and 1.4
 
 To view the tracks in UCSC genome browser we have to link to `hub.txt`,
 i.e in case of this repository on GitHub to
-http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://raw.githubusercontent.com/aerval/CADD-browserTracks/master/hub.txt
+http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://raw.githubusercontent.com/kircherlab/CADD-browserTracks/master/hub.txt
 for hg19/GRCh37 and
-http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://raw.githubusercontent.com/aerval/CADD-browserTracks/master/hub.txt
+http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://raw.githubusercontent.com/kircherlab/CADD-browserTracks/master/hub.txt
 for hg38/GRCh38.
 
 ## About this track
