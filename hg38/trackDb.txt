@@ -7,3 +7,23 @@ visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
+
+track CADD_v1_3_hg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig_liftover/CADD_v1.3on38.bw
+shortLabel CADD v1.3 hg38
+longLabel CADD scores version 1.3 for GRCh37/hg19 lifted to GRCh38/hg38
+type bigWig
+visibility hide
+viewLimits 0:40
+viewLimitsMax 0:100
+color 170,28,125
+
+track CADD_v1_4_hg37tohg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig_liftover/CADD_v1.3on38.bw
+shortLabel CADD v1_4 hg37tohg38
+longLabel CADD scores version 1.4 for GRCh37/hg19 lifted to GRCh38/hg38
+type bigWig
+visibility hide
+viewLimits 0:40
+viewLimitsMax 0:100
+color 96,108,118
