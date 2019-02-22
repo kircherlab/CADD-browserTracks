@@ -1,6 +1,6 @@
 hub CADD
 shortLabel CADD
-longLabel CADD Track for v1.3 & v1.4
+longLabel CADD Track for v1.3 to v1.5
 genomesFile genomes.txt
 email philipp.rentzsch@bihealth.de
 #descriptionUrl descriptionUrl

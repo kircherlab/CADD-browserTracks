@@ -1,9 +1,19 @@
-track CADD_v1_4_hg38
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.4.bw
-shortLabel CADD v1.4
-longLabel CADD scores version 1.4 for GRCh38/hg38
+track CADD_v1_5_hg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.5.bw
+shortLabel CADD v1.5
+longLabel CADD scores version 1.5 for GRCh38/hg38
 type bigWig
 visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
+
+track CADD_v1_4_hg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.4.bw
+shortLabel CADD v1.4
+longLabel CADD scores version 1.4 for GRCh38/hg38
+type bigWig
+visibility hide
+viewLimits 0:40
+viewLimitsMax 0:100
+color 96,108,118
