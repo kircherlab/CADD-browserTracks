@@ -8,6 +8,7 @@ viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
 email cadd-support@uw.edu
+html https://cadd.gs.washington.edu/genome-browser
 
 track CADD_v1_3_hg19
 bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_v1.3.bw
@@ -19,3 +20,4 @@ viewLimits 0:40
 viewLimitsMax 0:100
 color 170,28,125
 email cadd-support@uw.edu
+html https://cadd.gs.washington.edu/genome-browser
