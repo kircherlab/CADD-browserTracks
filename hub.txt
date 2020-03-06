@@ -2,5 +2,5 @@ hub CADD
 shortLabel CADD
 longLabel CADD Track for v1.3 to v1.5
 genomesFile genomes.txt
-email philipp.rentzsch@bihealth.de
-#descriptionUrl descriptionUrl
+email cadd-support@uw.edu
+descriptionUrl https://github.com/kircherlab/CADD-browserTracks

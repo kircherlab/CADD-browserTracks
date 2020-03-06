@@ -7,6 +7,7 @@ visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
+email cadd-support@uw.edu
 
 track CADD_v1_4_hg38
 bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.4.bw
@@ -17,3 +18,4 @@ visibility hide
 viewLimits 0:40
 viewLimitsMax 0:100
 color 96,108,118
+email cadd-support@uw.edu
