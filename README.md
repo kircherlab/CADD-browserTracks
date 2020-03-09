@@ -5,7 +5,7 @@ for [CADD](http://cadd.gs.washington.edu/) versions 1.3 to 1.5
 
 ## Usage
 
-To view the tracks in UCSC genome browser we have to link to `hub.txt`,
+To view the tracks in UCSC genome browser, you need to link to `hub.txt`,
 i.e in case of this repository on GitHub to
 http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://raw.githubusercontent.com/kircherlab/CADD-browserTracks/master/hub.txt
 for hg19/GRCh37 and
@@ -15,10 +15,10 @@ for hg38/GRCh38.
 ## About this track
 
 This is a [UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgGateway)
-track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html)
+track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html).
 
-It displayes the highest CADD score that any of 3 possible SNV at that position has.
-It is available for every determined genome position on the major chromosomes in the reference genome.
+It displayes the highest CADD score of any 3 possible SNVs for each position.
+It is available for every determined genome position (i.e. non-N bases) on the major chromosomes in the reference genome.
 
 The bigWig datasets that are displayed in the tracks are located [on our webserver](http://krishna.gs.washington.edu/download/CADD/bigWig/)
 
@@ -28,6 +28,7 @@ CADD (short for Combined Annotation Dependent Depletion) is a tool for scoring
 the deleteriousness of single nucleotide variants as well as
 insertion/deletions variants in the human genome
 (currently supported builds: GRCh37/hg19 and GRCh38/hg38).
+
 Details about CADD, including features in the latest version, the different
 genome builds and how we envision the use case of CADD are described in our
 latest manuscript:
@@ -37,6 +38,7 @@ Rentzsch P, Witten D, Cooper GM, Shendure J, Kircher M. <br>
 Nucleic Acids Res. 2018 Oct 29. doi: <a target="_blank" href="http://dx.doi.org/10.1093/nar/gky1016">10.1093/nar/gky1016</a>.<br>
 PubMed PMID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/30371827">30371827</a>.
 </blockquote>
+
 The original manuscript describing the method and its features was published by Nature Genetics in 2014:
 <blockquote>
 Kircher M, Witten DM, Jain P, O'Roak BJ, Cooper GM, Shendure J. <br>
@@ -48,7 +50,8 @@ PubMed PMID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/2448727
 We provide pre-computed CADD-based scores (C-scores) for all 8.6 billion
 possible single nucleotide variants (SNVs) of the reference genome, as well as
 all SNV and insertions/deletions variants (InDels) from population-wide whole
-genome variant releases and enable scoring of short InDels on our website.
+genome variant releases and enable scoring of short InDels on our website or 
+using an offline script installation.
 
 For more information, please check our
 [website for updates and further information](http://cadd.gs.washington.edu)
