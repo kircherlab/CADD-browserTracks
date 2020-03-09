@@ -1,7 +1,7 @@
 # CADD-browserTracks
 
 This repository contains the `hub.txt` that provides UCSC genome browser tracks
-for [CADD](http://cadd.gs.washington.edu/) versions 1.3 to 1.5
+for [CADD](http://cadd.gs.washington.edu/) versions 1.3 to 1.5.
 
 ## Usage
 
@@ -20,7 +20,7 @@ track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html).
 It displayes the highest CADD score of any 3 possible SNVs for each position.
 It is available for every determined genome position (i.e. non-N bases) on the major chromosomes in the reference genome.
 
-The bigWig datasets that are displayed in the tracks are located [on our webserver](http://krishna.gs.washington.edu/download/CADD/bigWig/)
+The bigWig datasets that are displayed in the tracks are located [on our webserver](http://krishna.gs.washington.edu/download/CADD/bigWig/).
 
 ## About CADD
 
