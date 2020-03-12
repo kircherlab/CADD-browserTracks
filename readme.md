@@ -53,8 +53,8 @@ all SNV and insertions/deletions variants (InDels) from population-wide whole
 genome variant releases and enable scoring of short InDels on our website or 
 using an offline script installation.
 
-For more information, please check our
-[website for updates and further information](https://cadd.gs.washington.edu)
+For updates and further information, please check our
+[website](https://cadd.gs.washington.edu)
 
 ## Copyright
 
