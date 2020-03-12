@@ -3,4 +3,4 @@ shortLabel CADD
 longLabel CADD Track for v1.3 to v1.5
 genomesFile genomes.txt
 email cadd-support@uw.edu
-descriptionUrl https://github.com/kircherlab/CADD-browserTracks
+descriptionUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/README.md
