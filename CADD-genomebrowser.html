@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<body>
+<h1>Track-Hub of CADD scores for UCSC Genome Browser</h1>
+
+<h2>Description</h2>
+<p>
+    This is information regarding the <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgGateway">UCSC genome browser</a> track <a target="_blank" href="https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html">hub</a> for CADD versions v1.3 to v1.5 on hg19 and hg38.
+
+    It displayes the highest <a target="_blank" href="/info">CADD score</a> of any 3 possible SNVs for a genomic position. It is available for every determined (i.e. non-N) position on the major chromosomes of the reference genome.
+</p>
+
+<h2>Usage</h2>
+
+<p>
+    To view the tracks in UCSC genome browser, you have to link to `hub.txt` available on our <a href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks" target="_blank">Repository</a>. The simplest way to do this is to click <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg19/GRCh37</a>
+    and <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg38/GRCh38</a>.
+</p>
+
+<h2>Reference</h2>
+<p>
+    Our latest manuscript describes the updates since the initial publication of
+    CADD including these UCSC Genome Browser tracks. It was published by
+    Nucleic Acids Research in 2018:
+    <blockquote>
+        Rentzsch P, Witten D, Cooper GM, Shendure J, Kircher M. <br>
+        <i>CADD: predicting the deleteriousness of variants throughout the human genome.</i><br>
+        Nucleic Acids Res. 2018 Oct 29. doi: <a target="_blank" href="https://dx.doi.org/10.1093/nar/gky1016">10.1093/nar/gky1016</a>.<br>
+        PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/30371827">30371827</a>.
+    </blockquote>
+    The original manuscript describing the CADD method was published by
+    Nature Genetics in 2014:
+    <blockquote>
+        Kircher M, Witten DM, Jain P, O'Roak BJ, Cooper GM, Shendure J. <br>
+        <i>A general framework for estimating the relative pathogenicity of human genetic variants.</i><br>
+        Nat Genet. 2014 Feb 2. doi: <a target="_blank" href="https://dx.doi.org/10.1038/ng.2892">10.1038/ng.2892</a>.<br>
+        PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24487276">24487276</a>.
+    </blockquote>
+</p>
+
+<h2>Data Access</h2>
+<p>
+    The bigWig datasets displayed in these tracks are located <a target="_blank" href="https://krishna.gs.washington.edu/download/CADD/bigWig/">on our webserver</a>.
+    The code for this track-hub is further hosted <a target="_blank" href="https://github.com/kircherlab/CADD-webserver">on GitHub</a>
+</p>
+
+<h2>Contact</h2>
+<p>
+    If you have technical problems using the CADD track-hub, please check the information provided in <a target="_blank" href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/readme.md">the readme</a> and on the <a target="_blank" href="https://cadd.gs.washington.edu">CADD website</a>. If this does not resolve your issues, please contact us at cadd-support [at] uw.edu.
+</p>
+
+<footer class="footer">
+    <section class="container">
+    <p align="center">&copy; University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.</p>
+    <p align="center"><a href="http://www.washington.edu/online/terms/">Terms and Conditions</a> and the <a href="http://www.washington.edu/online/privacy/">Online Privacy Statement</a> of the University of Washington apply. </p>
+    </section>
+</footer>
+
+</body>
+<script>
+    "use strict";
+    !function() {
+        function e(e) {
+            for(r=0;
+                r<n.length;
+            r++)n[r].classList.remove("popover-open")
+        }
+        function t(t) {
+            t.preventDefault(),
+            document.querySelector(this.getAttribute("href")).classList.contains("popover-open")?document.querySelector(this.getAttribute("href")).classList.remove("popover-open"): (e(), document.querySelector(this.getAttribute("href")).classList.add("popover-open")), t.stopImmediatePropagation()
+        }
+        var o=document.querySelectorAll("[data-popover]"),
+        n=document.querySelectorAll(".popover"),
+        r=void 0;
+        for(r=0;
+            r<o.length;
+        r++)o[r].addEventListener("click", t);
+        document.addEventListener("click", e)
+    }(),
+    function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+}(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4137655-2', 'washington.edu');
+ga('send', 'pageview');
+</script>
+</html>
