@@ -1,6 +1,6 @@
 hub CADD
 shortLabel CADD
-longLabel CADD Track for v1.3 to v1.5
+longLabel CADD Track for v1.3 to v1.6
 genomesFile genomes.txt
 email cadd-support@uw.edu
 descriptionUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/readme.md

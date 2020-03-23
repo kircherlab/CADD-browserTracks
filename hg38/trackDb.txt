@@ -1,12 +1,24 @@
-track CADD_v1_5_hg38
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.5.bw
-shortLabel CADD v1.5
-longLabel CADD scores version 1.5 for GRCh38/hg38
+track CADD_v1_6_hg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.6.bw
+shortLabel CADD v1.6
+longLabel CADD scores version 1.6 for GRCh38/hg38
 type bigWig
 visibility full
 viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
+email cadd-support@uw.edu
+html https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
+
+track CADD_v1_5_hg38
+bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh38-v1.5.bw
+shortLabel CADD v1.5
+longLabel CADD scores version 1.5 for GRCh38/hg38
+type bigWig
+visibility hide
+viewLimits 0:40
+viewLimitsMax 0:100
+color 96,108,118
 email cadd-support@uw.edu
 html https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
 

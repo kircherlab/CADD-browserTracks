@@ -1,7 +1,7 @@
 # CADD-browserTracks
 
 This repository contains the `hub.txt` that provides UCSC genome browser tracks
-for [CADD](https://cadd.gs.washington.edu/) versions 1.3 to 1.5.
+for [CADD](https://cadd.gs.washington.edu/) versions 1.3 to 1.6.
 
 ## Usage
 
@@ -59,7 +59,7 @@ For updates and further information, please check our
 ## Copyright
 
 Copyright (c) University of Washington, Hudson-Alpha Institute for
-Biotechnology and Berlin Institute of Health 2013-2019. All rights reserved.
+Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
 
 Permission is hereby granted, to all non-commercial users and licensees of CADD
 (Combined Annotation Dependent Framework, licensed by the University of
