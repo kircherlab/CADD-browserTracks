@@ -1,21 +1,37 @@
 # CADD-browserTracks
 
-This repository contains the `hub.txt` that provides UCSC genome browser tracks
-for [CADD](https://cadd.gs.washington.edu/) versions 1.3 to 1.6.
+This repository contains the `hub.txt` that provides genome browser tracks
+for [CADD](https://cadd.gs.washington.edu/) versions 1.3 to 1.6 in UCSC genome browser,
+NCBI Genome Data Viewer and Ensembl genome browser.
 
 ## Usage
 
-To view the tracks in UCSC genome browser, you need to link to `hub.txt`,
+To view the tracks in **UCSC genome browser**, you need to link to `hub.txt`,
 i.e by clicking
 [this link](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt)
 for hg19/GRCh37 and 
 [this link](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt)
 for hg38/GRCh38.
 
+**NCBI GDV**:
+[hg19/GRCh37](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.1&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt)
+and
+[hg38/GRCh38](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.24&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt)
+
+**Ensembl**:
+[hg19/GRCh37](https://grch37.ensembl.org/TrackHub?url=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1)
+and
+[hg38/GRCh38](https://www.ensembl.org/TrackHub?url=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1).
+Please note that we have had trouble with Ensembl (no option for older CADD releases) and
+you may need to open the above links twice before Ensembl genome browser registers the track.
+
 ## About this track
 
-This is a [UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgGateway)
-track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html).
+This is a track [hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html) for
+[UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgGateway),
+[NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
+and [Ensembl genome viewer](http://www.ensembl.org)
+
 
 It displayes the highest CADD score of any 3 possible SNVs for each position.
 It is available for every determined genome position (i.e. non-N bases) on the major chromosomes in the reference genome.
