@@ -1,0 +1,9 @@
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig
+chmod +x wigToBigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes
+
+( echo 'track type=wiggle_0 name=\"CADD GRCh38-v1.7\" description=\"CADD-PHRED Score for hg38, version 1.7\" visibility=full autoScale=off viewLimits=0:40 color=112,172,192 maxHeightPixels=100:50:20 graphType=bar priority=20'; zcat /data/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz | python ../tsv2wiggle.py | tail -n +3 ) | gzip -c > CADD_GRCh38-v1.7.wig.gz
+./wigToBigWig CADD_GRCh38-v1.7.wig.gz hg38.chrom.sizes CADD_GRCh38-v1.7.bw
+
+
