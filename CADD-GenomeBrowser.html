@@ -1,68 +1,162 @@
 <!doctype html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="CADD - Combined Annotation Dependent Depletion">
+  <title>CADD - Combined Annotation Dependent Depletion</title>
+</head>
 <body>
-<h1>Track-Hub of CADD scores for UCSC Genome Browser</h1>
+
+    <section class="container">
+      <div id="content">
+
+<h1>Track-Hub of CADD scores for Genome Browsers</h1>
 
 <h2>Description</h2>
 <p>
-    This is information regarding the <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgGateway">UCSC genome browser</a> track <a target="_blank" href="https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html">hub</a> for CADD versions v1.3 to v1.6 on hg19 and hg38.
+  This is information for visualizing the maximum CADD single nucleotide variant (SNV) score along the genome for
+  CADD versions v1.3 to v1.7 on hg19 (GRCh37) and hg38 (GRCh38) in a genome browser like the <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgGateway">UCSC genome
+    browser</a> track <a target="_blank" href="https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html">hub</a>.
 
-    There is also limited support for <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genome/gdv/">NCBI genome data viewer</a> and <a target="_blank" href="https://www.ensembl.org">Ensembl genome browser</a>.
-    
-    The track displayes the highest <a target="_blank" href="https://cadd.gs.washington.edu/info">CADD score</a> of any 3 possible SNVs for a genomic position. It is available for every determined (i.e. non-N) position on the major chromosomes of the reference genome.
+  Similarly, the files can be used for <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genome/gdv/">NCBI genome data
+    viewer</a> and <a target="_blank" href="https://www.ensembl.org">Ensembl genome browser</a>.
+
+  The track displayes the highest <a target="_blank" href="https://cadd.gs.washington.edu/info">CADD score</a> of any 3
+  possible SNVs for a genomic position. It is available for every determined (i.e. non-N) position on the major
+  chromosomes of the reference genome.
 </p>
 
 <h2>Usage</h2>
 
 <p>
-    To view the tracks in UCSC genome browser, you have to link to `hub.txt` available on our <a href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks" target="_blank">Repository</a>. The simplest way to do this is to click <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg19/GRCh37</a>
-    and <a target="_blank" href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg38/GRCh38</a>.
+  To view the tracks, you have to link to `hub.txt` available on our <a
+    href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/" target="_blank">US</a> or <a
+    href="https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/" target="_blank">German</a> repository. The
+  simplest way to do this is for US mirror of the UCSC genome browser is to click <a target="_blank"
+    href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg19/GRCh37</a>
+  and <a target="_blank"
+    href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">here
+    for hg38/GRCh38</a>. For the European mirror please click <a target="_blank"
+    href="https://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/hub.txt">here for hg19/GRCh37</a>
+  and <a target="_blank"
+    href="https://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/hub.txt">here
+    for hg38/GRCh38</a>
 </p>
 <p>
-    For NCBI GDV: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.1&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">hg19/GRCh37</a> and <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.24&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">hg38/GRCh38</a>.
+  For NCBI GDV (CADD US server): <a target="_blank"
+    href="https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.1&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">hg19/GRCh37</a>
+  and <a target="_blank"
+    href="https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?acc=GCA_000001405.24&hub=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt">hg38/GRCh38</a>.
 </p>
 <p>
-    For Ensembl: <a target="_blank" href="https://grch37.ensembl.org/TrackHub?url=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1">hg19/GRCh37</a> and <a target="_blank" href="https://www.ensembl.org/TrackHub?url=https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1">hg38/GRCh38</a>.
+  For Ensembl (CADD DE server): <a target="_blank"
+    href="https://grch37.ensembl.org/TrackHub?url=https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1">hg19/GRCh37</a>
+  and <a target="_blank"
+    href="https://www.ensembl.org/TrackHub?url=https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/hub.txt;species=Homo_sapiens;name=CADD;registry=1">hg38/GRCh38</a>.<br>
+  Please note that we had trouble with Ensembl (no options for showing older CADD releases) and you may need to open the above links twice before Ensembl genome browser registers the track.
 </p>
 
 <h2>Reference</h2>
 <p>
-    Our latest manuscript describes the updates since the initial publication of
-    CADD including these UCSC Genome Browser tracks. It was published by
-    Nucleic Acids Research in 2018:
-    <blockquote>
-        Rentzsch P, Witten D, Cooper GM, Shendure J, Kircher M. <br>
-        <i>CADD: predicting the deleteriousness of variants throughout the human genome.</i><br>
-        Nucleic Acids Res. 2018 Oct 29. doi: <a target="_blank" href="https://dx.doi.org/10.1093/nar/gky1016">10.1093/nar/gky1016</a>.<br>
-        PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/30371827">30371827</a>.
-    </blockquote>
-    The original manuscript describing the CADD method was published by
-    Nature Genetics in 2014:
-    <blockquote>
-        Kircher M, Witten DM, Jain P, O'Roak BJ, Cooper GM, Shendure J. <br>
-        <i>A general framework for estimating the relative pathogenicity of human genetic variants.</i><br>
-        Nat Genet. 2014 Feb 2. doi: <a target="_blank" href="https://dx.doi.org/10.1038/ng.2892">10.1038/ng.2892</a>.<br>
-        PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24487276">24487276</a>.
-    </blockquote>
+  CADD has been described in four publications. The publication introducing the UCSC tracks is the 2018 NAR publication.
+  
+  The most recent manuscript describes CADD v1.7, an extension to the annotations 
+  included in the model. Most prominently, this version improves the scoring of 
+  coding variants with features derived from the ESM-1v protein language model 
+  as well as the scoring of regulatory variants with features derived from a 
+  convolutional neural network trained on regions of open chromatin:
+<blockquote>
+  Schubach M, Maass T, Nazaretyan L, R&ouml;ner S, Kircher M. <br>
+  <i>CADD v1.7: Using protein language models, regulatory CNNs and other nucleotide-level scores to improve genome-wide
+    variant predictions.</i><br>
+  Nucleic Acids Res. 2024 Jan 5. doi: <a target="_blank"
+    href="https://doi.org/10.1093/nar/gkad989">10.1093/nar/gkad989</a>.<br>
+    PubMed PMID: <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38183205/">38183205</a>.
+</blockquote>
+
+Before that there is the publication on CADD-Splice (CADD v1.6), which specifically improved the prediction of splicing effects:
+<blockquote>
+  Rentzsch P, Schubach M, Shendure J, Kircher M. <br>
+  <i>CADD-Spliceâ€”improving genome-wide variant effect prediction using deep learning-derived splice scores.</i><br>
+  Genome Med. 2021 Feb 22. doi: <a target="_blank"
+    href="https://doi.org/10.1186/s13073-021-00835-9">10.1186/s13073-021-00835-9</a>.<br>
+  PubMed PMID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/33618777">33618777</a>.
+</blockquote>
+  
+  The CADD manuscript in 2018 describes updates since the initial publication of
+  CADD including these UCSC Genome Browser tracks. It was published by
+  Nucleic Acids Research:
+<blockquote>
+  Rentzsch P, Witten D, Cooper GM, Shendure J, Kircher M. <br>
+  <i>CADD: predicting the deleteriousness of variants throughout the human genome.</i><br>
+  Nucleic Acids Res. 2018 Oct 29. doi: <a target="_blank"
+    href="https://dx.doi.org/10.1093/nar/gky1016">10.1093/nar/gky1016</a>.<br>
+  PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/30371827">30371827</a>.
+</blockquote>
+
+The original manuscript describing the CADD method was published by
+Nature Genetics in 2014:
+<blockquote>
+  Kircher M, Witten DM, Jain P, O'Roak BJ, Cooper GM, Shendure J. <br>
+  <i>A general framework for estimating the relative pathogenicity of human genetic variants.</i><br>
+  Nat Genet. 2014 Feb 2. doi: <a target="_blank" href="https://dx.doi.org/10.1038/ng.2892">10.1038/ng.2892</a>.<br>
+  PubMed PMID: <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24487276">24487276</a>.
+</blockquote>
 </p>
 
 <h2>Data Access</h2>
 <p>
-    The bigWig datasets displayed in these tracks are located <a target="_blank" href="https://krishna.gs.washington.edu/download/CADD/bigWig/">on our webserver</a>.
-    The code for this track-hub is further hosted <a target="_blank" href="https://github.com/kircherlab/CADD-browserTracks">on GitHub</a>
+  The bigWig datasets displayed in these tracks are located on our <a target="_blank"
+    href="https://krishna.gs.washington.edu/download/CADD/bigWig/">US webserver</a> or its <a target="_blank"
+    href="https://kircherlab.bihealth.org/download/CADD/bigWig/">German counterpart</a>.
+  The code for this track-hub is further hosted <a target="_blank"
+    href="https://github.com/kircherlab/CADD-browserTracks">on GitHub</a>.
 </p>
+
+<h2>Copyright</h2>
+
+Copyright (c) University of Washington, Hudson-Alpha Institute for
+Biotechnology and Berlin Institute of Health at Charit&eacute; -- 
+Universit&auml;tsmedizin Berlin 2013-2023. All rights reserved.
+
+Permission is hereby granted, to all non-commercial users and licensees of CADD
+(Combined Annotation Dependent Framework, licensed by the University of
+Washington) to obtain copies of this software and associated documentation
+files (the "Software"), to use the Software without restriction, including
+rights to use, copy, modify, merge, and distribute copies of the Software. The
+above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 <h2>Contact</h2>
 <p>
-    If you have technical problems using the CADD track-hub, please check the information provided in <a target="_blank" href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/readme.md">the readme</a> and on the <a target="_blank" href="https://cadd.gs.washington.edu">CADD website</a>. If this does not resolve your issues, please contact us at cadd-support [at] uw.edu.
+  If you have technical problems using the CADD track-hub, please also check the information provided in the README on the <a target="_blank"
+    href="https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/readme.md">US server</a> or <a target="_blank"
+    href="https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/readme.md">German server</a>. If this
+  does not resolve your issues, please contact us at cadd-support [at] uw.edu.
 </p>
 
-<footer class="footer">
-    <section class="container">
-    <p align="center">&copy; University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.</p>
-    <p align="center"><a href="http://www.washington.edu/online/terms/">Terms and Conditions</a> and the <a href="http://www.washington.edu/online/privacy/">Online Privacy Statement</a> of the University of Washington apply. </p>
+        
+
+      </div>
     </section>
-</footer>
+
+    <footer class="footer">
+      <section class="container">
+        
+        <p align="center">&copy; University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute
+          of Health at Charit&eacute;© - Universi&auml;tsmedizin Berlin 2013-2023. All rights reserved.</p>
+        
+      </section>
+    </footer>
+
 
 </body>
 <script>

@@ -1,5 +1,17 @@
+track CADD_v1_7_hg19
+bigDataUrl https://kircherlab.bihealth.org/download/CADD/bigWig/CADD_GRCh37-v1.7.bw
+shortLabel CADD v1.7
+longLabel CADD scores version 1.7 for GRCh37/hg19
+type bigWig
+visibility full
+viewLimits 0:40
+viewLimitsMax 0:100
+color 112,172,192
+email cadd-support@uw.edu
+html https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
+
 track CADD_v1_6_hg19
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh37-v1.6.bw
+bigDataUrl https://kircherlab.bihealth.org/download/CADD/bigWig/CADD_GRCh37-v1.6.bw
 shortLabel CADD v1.6
 longLabel CADD scores version 1.6 for GRCh37/hg19
 type bigWig
@@ -8,10 +20,10 @@ viewLimits 0:40
 viewLimitsMax 0:100
 color 112,172,192
 email cadd-support@uw.edu
-html https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
+html https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
 
 track CADD_v1_4_hg19
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_GRCh37-v1.4.bw
+bigDataUrl https://kircherlab.bihealth.org/download/CADD/bigWig/CADD_GRCh37-v1.4.bw
 shortLabel CADD v1.4
 longLabel CADD scores version 1.4 for GRCh37/hg19
 type bigWig
@@ -20,10 +32,10 @@ viewLimits 0:40
 viewLimitsMax 0:100
 color 170,28,125
 email cadd-support@uw.edu
-html https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
+html https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
 
 track CADD_v1_3_hg19
-bigDataUrl https://krishna.gs.washington.edu/download/CADD/bigWig/CADD_v1.3.bw
+bigDataUrl https://kircherlab.bihealth.org/download/CADD/bigWig/CADD_v1.3.bw
 shortLabel CADD v1.3
 longLabel CADD scores version 1.3 for GRCh37/hg19
 type bigWig
@@ -32,4 +44,4 @@ viewLimits 0:40
 viewLimitsMax 0:100
 color 170,28,125
 email cadd-support@uw.edu
-html https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
+html https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/CADD-GenomeBrowser.html
