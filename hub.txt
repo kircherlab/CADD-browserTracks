@@ -1,0 +1,6 @@
+hub CADD
+shortLabel CADD
+longLabel CADD Track for v1.3 to v1.7
+genomesFile genomes.txt
+email cadd-support@uw.edu
+descriptionUrl https://kircherlab.bihealth.org/download/CADD/bigWig/CADD-browserTracks/readme.md
